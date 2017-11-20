@@ -11,4 +11,8 @@ FizzBuzz.prototype.play = function(number) {
   else if (number % 3 === 0){
     return'Fizz'
   }
+
+  else {
+    return 'not a FizzBuzz';
+  }
 }

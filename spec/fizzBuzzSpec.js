@@ -17,4 +17,9 @@ describe("FizzBuzz", function() {
   it("#play should print FizzBuzz", function(){
     expect(fizzBuzz.play(15)).toEqual('FizzBuzz')
   })
+
+  it("#play should print not a FizzBuzz", function(){
+    expect(fizzBuzz.play(2)).toEqual('not a FizzBuzz')
+  })
+
 });
