@@ -13,4 +13,8 @@ describe("FizzBuzz", function() {
   it("#play should print Buzz", function() {
     expect(fizzBuzz.play(5)).toEqual('Buzz');
   });
+
+  it("#play should print FizzBuzz", function(){
+    expect(fizzBuzz.play(15)).toEqual('FizzBuzz')
+  })
 });
