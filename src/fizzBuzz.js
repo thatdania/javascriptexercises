@@ -1,16 +1,10 @@
-var array = []
-for(var i = 1; i <= 100; i++){
-  array.push(i)
+function FizzBuzz(){
 }
 
-array.forEach(function(i){
-  if (i % 3 === 0 && i % 5 === 0){
-    console.log('fizzbuuzz');
-  }
-  else if (i % 5 === 0){
-    console.log('buzz'+ i);
-  }
-  else if (i % 3 === 0) {
-    console.log('fizz'+i);
-  }
-});
+FizzBuzz.prototype.play = function(number) {
+  if (number % 3 === 0) {
+  return'Fizz'
+}
+  else if (number % 5 === 0) {
+  return'Buzz'
+}} 
